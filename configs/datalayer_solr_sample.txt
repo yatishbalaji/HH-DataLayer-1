@@ -1,0 +1,1 @@
+SOLR_URL=http://solrmaster.headhonchos:8983/solr

@@ -1,1 +1,17 @@
+DRIVER=com.mysql.jdbc.Driver
 
+SLAVE_ABC=jdbc:mysql://prod-rds-cluster-1.cluster-ro-cpm0ntxnwycb.ap-south-1.rds.amazonaws.com:3306/abc
+SLAVE_ABC_USER=charlie
+SLAVE_ABC_PASSWORD=Charlie$Hh_India@2016
+
+SLAVE_ABC_RESUME_SKILL=jdbc:mysql://prod-rds-cluster-1.cluster-ro-cpm0ntxnwycb.ap-south-1.rds.amazonaws.com:3306/abc_resume_skill
+SLAVE_ABC_RESUME_SKILL_USER=charlie
+SLAVE_ABC_RESUME_SKILL_PASSWORD=Charlie$Hh_India@2016
+
+MASTER_ABC=jdbc:mysql://prod-rds-cluster-1.cluster-cpm0ntxnwycb.ap-south-1.rds.amazonaws.com:3306/abc
+MASTER_ABC_USER=charlie
+MASTER_ABC_PASSWORD=Charlie$Hh_India@2016
+
+MASTER_ABC_RESUME_SKILL=jdbc:mysql://prod-rds-cluster-1.cluster-cpm0ntxnwycb.ap-south-1.rds.amazonaws.com:3306/abc_resume_skill
+MASTER_ABC_RESUME_SKILL_USER=charlie
+MASTER_ABC_RESUME_SKILL_PASSWORD=Charlie$Hh_India@2016
