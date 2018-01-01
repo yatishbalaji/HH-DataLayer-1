@@ -1,1 +1,1 @@
-SOLR_URL=http://solrmaster.headhonchos:8983/solr
+SOLR_URL=http://solr-web-node1:8983/solr
